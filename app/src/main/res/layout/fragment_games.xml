@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5EB2F4">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image2"
+        android:layout_alignStart="@+id/profile_image4"
+        android:layout_alignEnd="@+id/profile_image4"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="0dp"
+        android:text="Mobile Legend"
+        android:textColor="#020202" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image2"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="46dp"
+        android:src="@drawable/pubg" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image4"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="64dp"
+        android:src="@drawable/mobilelegend" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="93dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/profile_image2"
+        android:layout_alignStart="@+id/profile_image2"
+        android:layout_alignEnd="@+id/profile_image2"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="1dp"
+        android:text="PUBG Mobile"
+        android:textColor="#020202" />
+
+</RelativeLayout>
